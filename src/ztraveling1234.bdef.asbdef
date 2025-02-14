@@ -1,7 +1,7 @@
 managed implementation in class zbp_traveling1234 unique;
 strict ( 2 );
 
-define behavior for ztraveling1234 //alias <alias_name>
+define behavior for ztraveling1234 alias Travel
 persistent table /dmo/travel_m
 lock master
 authorization master ( instance )
@@ -9,6 +9,9 @@ authorization master ( instance )
 {
   create;
   update;
-  delete;
+  //delete;
+
+
+
   field ( readonly ) TravelId;
 }
